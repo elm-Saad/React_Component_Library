@@ -1,6 +1,6 @@
 # Badges Component
 
-![GitHub license](https://github.com/elm-Saad/React_Component_Library.git)
+(https://github.com/elm-Saad/React_Component_Library.git)
 ## Description
 
 The Badges component is a versatile and high-quality UI element that allows you to easily add colorful badges to your web application. With options for specifying badge color, size, and rounding style, you can tailor these badges to fit your design and content needs.
