@@ -20,30 +20,30 @@ import { BsGithub } from 'react-icons/bs';<br/>
 
 function App() {<br/>
   return (<br/>
-    <div>
+    < div><br/>
         {/*with image */}<br/>
-      <Testimonials 
+      < Testimonials 
         imagePath="path/to/testimonial-image.jpg"
         bgColor="blue"
         textColor="white"
       ><br/>
-        <Testimonial.Text><br/>
+        < Testimonial.Text><br/>
             This product has made a significant difference in my life. Highly recommended!<br/>
-        </Testimonial.Text><br/>
-        <Testimonial.Auth><br/>
+        </ Testimonial.Text><br/>
+        < Testimonial.Auth><br/>
             user_name/..<br/>
-        </Testimonial.Auth><br/>
-      </Testimonials><br/>
+        </ Testimonial.Auth><br/>
+      </ Testimonials><br/>
       {/*with out image*/}<br/>
-      <Testimonials
+      < Testimonials
         title="Satisfied Client"
         bgColor="blue"
         textColor="white"
         LibraryIcon=<BsGithub />
       ><br/>
         This product has made a significant difference in my life. Highly recommended!<br/>
-      </Testimonials><br/>
-    </div>
+      </ Testimonials><br/>
+    </ div><br/>
   );<br/>
 }<br/>
 

@@ -27,14 +27,14 @@ import Badges from './component/badges';<br/>
 
 function App() {<br/>
   return (<br/>
-    <div>
-      <Badges color="blue" size="s2" rounded="square"><br/>
+    < div><br/>
+      < Badges color="blue" size="s2" rounded="square"><br/>
         New<br/>
-      </Badges><br/>
-      <Badges color="green" size="s4" rounded="pill"><br/>
+      </ Badges><br/>
+      < Badges color="green" size="s4" rounded="pill"><br/>
         Featured<br/>
-      </Badges><br/>
-    </div>
+      </ Badges><br/>
+    </ div><br/>
   );<br/>
 }<br/>
 

@@ -20,12 +20,12 @@ import Banner from 'component/Banners/index';<br/>
 
 function App() {<br/>
   return (<br/>
-    <div>
-      <Banner status="success" line="multiple"><br/>
+    < div><br/>
+      < Banner status="success" line="multiple" ><br/>
         Success! Your action was completed.<br/>
-      </Banner><br/>
-      <Banner status="error" line="single" /><br/>
-    </div>
+      </ Banner ><br/>
+      < Banner status="error" line="single" /><br/>
+    </ div><br/>
   );<br/>
 }<br/>
 

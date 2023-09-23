@@ -20,16 +20,16 @@ import { BsGithub } from 'react-icons/bs'<br/>
 
 function App() {<br/>
   return (<br/>
-    <div>
-      <Card color="purple" LibararyIcon=<BsGithub />><br/>
-        <Card.Title>Title</Card.Title><br/>
-        <Card.Text>This is the content of your card.</Card.Text><br/>
-      </Card><br/>
-      <Card color="red" iconPath={../assets/image_1}><br/>
-        <Card.Title>Title</Card.Title><br/>
-        <Card.Text>This is the content of your card.</Card.Text><br/>
-      </Card><br/>
-    </div>
+    < div><br/>
+      < Card color="purple" LibararyIcon=<BsGithub />><br/>
+        < Card.Title>Title</Card.Title><br/>
+        < Card.Text>This is the content of your card.</Card.Text><br/>
+      </ Card><br/>
+      < Card color="red" iconPath={../assets/image_1}><br/>
+        < Card.Title>Title</Card.Title><br/>
+        < Card.Text>This is the content of your card.</Card.Text><br/>
+      </ Card><br/>
+    </ div><br/>
   );<br/>
 }<br/>
 
