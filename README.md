@@ -10,19 +10,19 @@ This project includes a collection of reusable components designed to enhance yo
 
 - **Badges Component**
   - Description: Elevate your UI with colorful and versatile badges.
-  - Location: `components/Badges/`
+  - Location: `src/components/Badges/`
 
 - **Banner Component**
   - Description: Effortless alert banners for every occasion.
-  - Location: `components/Banners/`
+  - Location: `src/components/Banners/`
 
 - **Card Component**
   - Description: Stylish and versatile cards for any content.
-  - Location: `components/Cards/`
+  - Location: `src/components/Cards/`
 
 - **Testimonials Component**
   - Description: Share customer stories with stunning testimonials.
-  - Location: `components/Testimonials/`
+  - Location: `src/components/Testimonials/`
 
 ## Getting Started
 

@@ -1,7 +1,6 @@
 # Banner Component
 
-![GitHub license](https://github.com/elm-Saad/React_Component_Library.git/src/component/)
-
+![GitHub license](https://github.com/elm-Saad/React_Component_Library.git)
 ## Description
 
 The Banner component is a powerful and customizable tool for adding alert banners to your web application. Whether you need to display neutral information, error messages, warnings, or success notifications, this component has you covered. Choose from single or multiple lines to create the perfect banner for your needs.
