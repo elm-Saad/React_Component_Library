@@ -1,6 +1,6 @@
 # Testimonials Component
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://github.com/elm-Saad/React_Component_Library.git/src/component/)
 
 ## Description
 
@@ -15,7 +15,7 @@ The Testimonials component is a versatile and feature-rich UI element designed f
 
 ## Usage
 import React from 'react';
-import Testimonials from 'testimonials';
+import Testimonials from 'component/testimonials';
 import { BsGithub } from 'react-icons/bs';
 
 function App() {

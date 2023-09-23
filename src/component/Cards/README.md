@@ -1,6 +1,6 @@
 # Card Component
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://github.com/elm-Saad/React_Component_Library.git/src/component/)
 
 ## Description
 
@@ -15,7 +15,7 @@ The Card component is a versatile and customizable UI element that allows you to
 
 ## Usage 
 import React from 'react';
-import Card from 'Cards/index';
+import Card from 'component/Cards/index';
 import { BsGithub } from 'react-icons/bs'
 
 function App() {

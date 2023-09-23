@@ -1,6 +1,6 @@
 # Banner Component
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://github.com/elm-Saad/React_Component_Library.git/src/component/)
 
 ## Description
 
@@ -16,7 +16,7 @@ The Banner component is a powerful and customizable tool for adding alert banner
 ## Usage
 
 import React from 'react';
-import Banner from 'Banners/index';
+import Banner from 'component/Banners/index';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 # Badges Component
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://github.com/elm-Saad/React_Component_Library.git/src/component/)
 
 ## Description
 
@@ -23,7 +23,7 @@ rounded: Badge rounding style (Options: square, pill).
 ## Usage
 
 import React from 'react';
-import Badges from 'badges';
+import Badges from './component/badges';
 
 function App() {
   return (
