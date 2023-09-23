@@ -107,7 +107,7 @@ return (
     },
     icons:{
         GithubIcon:{
-            link:'https://github.com/elm-Saad/React_Component_Library.git/src/component/',
+            link:'https://github.com/elm-Saad/React_Component_Library',
             icon:<BsGithub/>
         },
         TwitterIcon:{

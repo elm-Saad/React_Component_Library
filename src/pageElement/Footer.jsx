@@ -6,7 +6,7 @@ export default function Footer({icons}){
     let IconsElement = Object.values(icons).map(item=>{
         return (
             <div key={nanoid()} className="footer-icon">
-                <a href={item.link}>
+                <a href={item.link} target="_blank">
                     {item.icon}
                 </a>
             </div>
