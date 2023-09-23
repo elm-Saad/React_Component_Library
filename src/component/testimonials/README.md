@@ -14,41 +14,40 @@ The Testimonials component is a versatile and feature-rich UI element designed f
 - Support for both local and external images for flexible display.
 
 ## Usage
-import React from 'react';
-import Testimonials from 'component/testimonials';
-import { BsGithub } from 'react-icons/bs';
+import React from 'react';<br/>
+import Testimonials from 'component/testimonials';<br/>
+import { BsGithub } from 'react-icons/bs';<br/>
 
-function App() {
-  return (
+function App() {<br/>
+  return (<br/>
     <div>
-        {/*with image */}
-      <h1>Your App</h1>
-      <Testimonials
+        {/*with image */}<br/>
+      <Testimonials 
         imagePath="path/to/testimonial-image.jpg"
         bgColor="blue"
         textColor="white"
-      >
-        <Testimonial.Text>
-            This product has made a significant difference in my life. Highly recommended!
-        </Testimonial.Text>
-        <Testimonial.Auth>
-            user_name/..
-        </Testimonial.Auth>
-      </Testimonials>
-      {/*with out image*/}
+      ><br/>
+        <Testimonial.Text><br/>
+            This product has made a significant difference in my life. Highly recommended!<br/>
+        </Testimonial.Text><br/>
+        <Testimonial.Auth><br/>
+            user_name/..<br/>
+        </Testimonial.Auth><br/>
+      </Testimonials><br/>
+      {/*with out image*/}<br/>
       <Testimonials
         title="Satisfied Client"
         bgColor="blue"
         textColor="white"
         LibraryIcon=<BsGithub />
-      >
-        This product has made a significant difference in my life. Highly recommended!
-      </Testimonials>
+      ><br/>
+        This product has made a significant difference in my life. Highly recommended!<br/>
+      </Testimonials><br/>
     </div>
-  );
-}
+  );<br/>
+}<br/>
 
-export default App;
+export default App;<br/>
 
 ## Props
 

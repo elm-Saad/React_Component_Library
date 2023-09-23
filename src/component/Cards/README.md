@@ -14,28 +14,26 @@ The Card component is a versatile and customizable UI element that allows you to
 - Effortlessly adapt the card to different content types and styles.
 
 ## Usage 
-import React from 'react';
-import Card from 'component/Cards/index';
-import { BsGithub } from 'react-icons/bs'
+import React from 'react';<br/>
+import Card from 'component/Cards/index';<br/>
+import { BsGithub } from 'react-icons/bs'<br/>
 
-function App() {
-  return (
+function App() {<br/>
+  return (<br/>
     <div>
-      <h1>Your App</h1>
-      <Card color="purple" LibararyIcon=<BsGithub />>
-        <Card.Title>Title</Card.Title>
-        <Card.Text>This is the content of your card.</Card.Text>
-      </Card>
-      <Card color="red" iconPath={../assets/image_1}>
-        <Card.Title>Title</Card.Title>
-        <Card.Text>This is the content of your card.</Card.Text>
-      </Card>
-
+      <Card color="purple" LibararyIcon=<BsGithub />><br/>
+        <Card.Title>Title</Card.Title><br/>
+        <Card.Text>This is the content of your card.</Card.Text><br/>
+      </Card><br/>
+      <Card color="red" iconPath={../assets/image_1}><br/>
+        <Card.Title>Title</Card.Title><br/>
+        <Card.Text>This is the content of your card.</Card.Text><br/>
+      </Card><br/>
     </div>
-  );
-}
+  );<br/>
+}<br/>
 
-export default App;
+export default App;<br/>
 
 ## Props
 

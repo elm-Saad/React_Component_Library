@@ -22,22 +22,21 @@ rounded: Badge rounding style (Options: square, pill).
 
 ## Usage
 
-import React from 'react';
-import Badges from './component/badges';
+import React from 'react';<br/>
+import Badges from './component/badges';<br/>
 
-function App() {
-  return (
+function App() {<br/>
+  return (<br/>
     <div>
-      <h1>Your App</h1>
-      <Badges color="blue" size="s2" rounded="square">
-        New
-      </Badges>
-      <Badges color="green" size="s4" rounded="pill">
-        Featured
-      </Badges>
+      <Badges color="blue" size="s2" rounded="square"><br/>
+        New<br/>
+      </Badges><br/>
+      <Badges color="green" size="s4" rounded="pill"><br/>
+        Featured<br/>
+      </Badges><br/>
     </div>
-  );
-}
+  );<br/>
+}<br/>
 
-export default App;
+export default App;<br/>
 

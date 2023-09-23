@@ -15,22 +15,21 @@ The Banner component is a powerful and customizable tool for adding alert banner
 
 ## Usage
 
-import React from 'react';
-import Banner from 'component/Banners/index';
+import React from 'react';<br/>
+import Banner from 'component/Banners/index';<br/>
 
-function App() {
-  return (
+function App() {<br/>
+  return (<br/>
     <div>
-      <h1>Your App</h1>
-      <Banner status="success" line="multiple">
-        Success! Your action was completed.
-      </Banner>
-      <Banner status="error" line="single" />
+      <Banner status="success" line="multiple"><br/>
+        Success! Your action was completed.<br/>
+      </Banner><br/>
+      <Banner status="error" line="single" /><br/>
     </div>
-  );
-}
+  );<br/>
+}<br/>
 
-export default App;
+export default App;<br/>
 
 ## Props
 
